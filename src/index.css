@@ -1,0 +1,237 @@
+/* this is css for body */
+body{
+padding: 0;
+margin: 0;
+}
+.app-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/*css for header */
+#container1{
+background-color: 	black;
+color: white;
+height: 90px;
+width: 100vw;
+display: inline-flex;
+gap: 10px;
+margin: 0;
+}
+.logo{
+width: 150px;
+padding-top: 10px;
+padding-left: 50px;
+}
+#help{
+padding-top: 8px;
+font-weight: 200;
+font-size: 23px;
+}
+#help:hover{
+cursor: pointer;
+padding-top: 8px;
+font-size: 23px;
+text-decoration: underline;
+font-weight: 200;
+}
+.button{
+height: 50px;
+margin-top: 25px;
+border-radius: 10px;
+color: white;
+font-size: larger;
+}
+#btns{
+display: flex;
+gap: 10px;
+margin-left: 500px;
+}
+#button1{
+border-style: solid;
+border-color: white;
+border-width: 0.5px;
+    width: 200px;
+background-color: 	black;
+}
+#button1:hover{
+border-style: solid;
+border-color: white;
+border-width: 0.5px;
+width: 200px;
+background-color: black;
+cursor: pointer;  
+}
+#button2{
+background-color: rgb(82, 82, 195);
+width: 150px;
+}
+#button2:hover{
+background-color: white;
+color: black;
+cursor: pointer;
+}
+/*css for section1*/
+.container2{
+background-color: #dadbf1;
+height: 400px;
+width: 100vw;
+color: black;
+text-align: center;
+font-size: larger;
+padding: 0;
+margin-right: 0;
+margin: 0;
+border-top-style: solid;
+border-color: #dadbf1;
+border-top-width: 10px;
+
+}
+#main-text{
+padding-top: 70px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 70px;
+padding-bottom: 20px;
+}
+#input-container{
+margin-left: 300px;
+text-align: left;
+width: 700px;
+height: 65px; 
+border-style: solid;
+background-color: white;
+align-items: center;
+gap: 45px;
+display: flex;
+gap: 50px;
+color: black;
+}
+
+#input-container input{
+border-style: solid;
+width: 600px;
+height: 60px;
+border: none;
+outline: none;
+font-size: x-large;
+}
+#arrow{
+font-size: x-large;
+}
+/*css for section2*/
+.grid{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 50px;
+font-size: small;
+height: 1200px;
+width: 100vw;
+box-sizing: border-box;
+padding-top: 150px;
+padding-left: 90px;
+padding-right: 100px;
+margin: 0;
+padding-bottom: 0;
+}
+.item{
+text-align: left;
+width: 400px;
+height: 300px;
+gap: 10px;
+word-spacing: 10px;
+display: flex;
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 300;
+}
+.info{
+font-size: 20px;
+color: rgba(0, 94, 255, 0.855);
+cursor: pointer;
+}
+.info:hover{
+   color:  rgba(0, 94, 255, 0.855);
+text-decoration: underline;
+cursor: pointer;
+}
+.item-img{
+width: 80px;
+height: 90px;
+}
+/*css for footer*/
+.container4{
+display: flex;
+gap: 200px;
+padding-left: 10px;
+padding-top: 20px;
+background-color: black;
+color: aliceblue;
+left: 0;
+height: 450px;
+margin: 0;
+margin-bottom: 0;
+padding-bottom: 0;
+width: 100%;
+margin: 0;  
+}
+.list{
+list-style: none;
+}
+#head,#sublist-head{
+font-size: 30px;
+margin-bottom: 20px;
+font-weight: bold;
+}
+#content{
+margin-bottom: 5px;
+
+}  
+#sub-list{
+list-style: none;
+text-align: left;
+}
+#sublist-head{
+font-size: 20px;
+font-weight: bold;
+}
+.listclass{
+  display: flex;
+}
+.copyright{
+
+height: 200px;
+width: 500px;
+margin-right: 90px;
+color: #dadbf1;
+margin-top: 200px;
+
+}
+#logo-img{
+height: 40px;
+width: 40px;
+}
+#footer-text{
+  font-size: x-large;
+  }
+  /* css for help chat */
+#help-button{
+  width: 100px;
+  display: flex;
+  background-color:  rgba(0, 94, 255, 0.855);
+  border-radius: 20px;
+  color: aliceblue;
+  gap: 10px;
+  font-size: 15px;
+  padding: 8px;
+height: 50px;
+padding-bottom: 5px;
+margin-left: 90vw;
+position: -webkit-sticky;
+
+}
+#help-img{
+  width: 25px;
+  margin-top: 7px;
+
+}
